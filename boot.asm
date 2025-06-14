@@ -13,7 +13,7 @@ end:
         jmp $
 
 osName:
-    db "leoOS", 0
+    db "leoOS - Version 0.1 - Get the code at github.com/LeoTech8/leoOS", 0
 
 times 510-($-$$) db 0
 db 0x55,0xaa
